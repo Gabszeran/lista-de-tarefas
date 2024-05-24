@@ -9,10 +9,6 @@
 <body>
     <h1 id="titulo">Lembretes</h1>
     <div id="containers">
-        <div id="container-mostrar-concluidos">
-            <h1 id="mostrar-concluidos" onclick="mostrarConcluidos()">Mostrar Concluídos</h1>
-            <ul id="lista-concluidos" class="hidden"></ul>
-        </div>
         <div id="container-minha-lista">
             <h1>Minha lista</h1>
             <ul id="lista"></ul>
@@ -20,6 +16,10 @@
                 <input id="novo-lembrete" placeholder="Digite um novo lembrete..." type="text">
                 <button id="botao" onclick="adicionarLembrete()">Adicionar</button>
             </div>
+        </div>
+        <div id="container-mostrar-concluidos">
+            <h1 id="mostrar-concluidos" onclick="mostrarConcluidos()">Concluídos</h1>
+            <ul id="lista-concluidos" class="hidden"></ul>
         </div>
     </div>
     <script src="assets/script.js"></script>
