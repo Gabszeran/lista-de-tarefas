@@ -20,8 +20,14 @@ body {
 
 #containers {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#container-minha-lista {
+    min-width: 500px;
 }
 
 #container-minha-lista, #container-mostrar-concluidos {
@@ -46,9 +52,25 @@ body {
 #lista li, #lista-concluidos li {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid #ddd;
+}
+
+.circulo {
+    margin-right: 10px;
+}
+
+#lista li .texto-lembrete {
+    flex: 1;
+}
+
+.texto-lembrete {
+    margin-left: 10px;
+}
+
+#lista li .icons {
+    display: flex;
+    align-items: center;
 }
 
 .circulo, .editar, .excluir {
@@ -80,3 +102,18 @@ body {
 .hidden {
     display: none;
 }
+
+.input-editar-lembrete {
+    flex: 1;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #4c53ff;
+    border-radius: 6px;
+    font-family: "Roboto", sans-serif;
+}
+
+.concluir, #mostrar-concluidos {
+    cursor: pointer;
+}
+
