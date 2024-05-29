@@ -24,6 +24,7 @@ Demonstração
 
 Aqui está uma visualização de como a aplicação de lembretes funciona:
 
+https://github.com/Gabszeran/lista-de-tarefas/assets/99148193/c8d875b4-0141-4338-a839-e1e079295134
 
-https://github.com/Gabszeran/lista-de-tarefas/assets/99148193/2e6fe5dd-02f1-4a22-930f-1d12abb84af1
+
 
