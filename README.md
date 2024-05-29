@@ -20,11 +20,6 @@ Em processo de finalização.
     Para excluir um lembrete, clique no ícone de lixeira.
     Clique em "Concluídos" para alternar a visibilidade da lista de lembretes concluídos.
 
-Demonstração
-
-Aqui está uma visualização de como a aplicação de lembretes funciona:
-
-https://github.com/Gabszeran/lista-de-tarefas/assets/99148193/c8d875b4-0141-4338-a839-e1e079295134
 
 
 
